@@ -5,7 +5,7 @@ def find_calories(elves):
     return top_calorie,top_3
     
 if __name__ == '__main__':
-    with open('IO/1.txt','r') as f_in:
+    with open('IO/d1.txt','r') as f_in:
         elves = f_in.read()[:-1].split('\n\n')
         top_calorie,top_3 = find_calories(elves)
         print(f"Top Calories: {top_calorie}, Top 3: {top_3}")
