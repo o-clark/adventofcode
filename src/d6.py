@@ -1,0 +1,2 @@
+print(next((i+4 for line in open('IO/d6.txt', 'r').readlines() for i in range(0, len(line)) if len(set(line[i:i+4])) == 4)))
+print(next((i+14 for line in open('IO/d6.txt', 'r').readlines() for i in range(0, len(line)) if len(set(line[i:i+14])) == 14)))
